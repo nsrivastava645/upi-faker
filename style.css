@@ -1,0 +1,55 @@
+body {
+  border: 2px solid black;
+  margin: 0% 3% !important;
+}
+.navbar {
+  font-size: 30px;
+  background-color: #e3f2fd;
+  margin: 0% 1%;
+  padding: 20px;
+}
+.date-heading {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.transactions-container {
+  display: flex;
+  flex-direction: column;
+}
+.transactions {
+  padding: 10px;
+  width: 400px;
+  height: fit-content;
+  border: solid 2px;
+  margin: 10px;
+}
+.sent {
+  align-self: flex-end;
+}
+.received {
+  align-self: flex-start;
+}
+.per-day {
+  margin: 1%;
+}
+.flag {
+  float: right;
+}
+.action-btn-container {
+  display: block;
+}
+.amount {
+  font-size: 30px;
+}
+.btn {
+  margin: 5px;
+}
+.expires-on{
+    float: left;
+    display: block;
+}
+.more-details{
+    font-size: 2em;
+    float: right;
+    display: block;
+}
