@@ -18,8 +18,8 @@ body {
 }
 .transactions {
   padding: 10px;
-  width: 400px;
-  height: fit-content;
+  width: auto;
+  height: auto;
   border: solid 2px;
   margin: 10px;
 }
@@ -47,9 +47,11 @@ body {
 .expires-on{
     float: left;
     display: block;
+    margin: 0 10px;
 }
 .more-details{
     font-size: 2em;
     float: right;
     display: block;
+    margin: 0px 10px
 }
